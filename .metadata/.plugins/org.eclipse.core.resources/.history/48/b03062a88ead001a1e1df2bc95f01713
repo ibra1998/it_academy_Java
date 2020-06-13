@@ -1,0 +1,36 @@
+package prueba2;
+
+class fase1 {
+
+		// TODO Auto-generated method stub
+	public fase1() {
+		//char [] letrasNombre;
+		letrasNombre = new char [6];
+		letrasNombre[0] = 'B';
+		letrasNombre[1] = 'R';
+		letrasNombre[2] = 'A';
+		letrasNombre[3] = 'H';
+		letrasNombre[4] = 'I';
+		letrasNombre[5] = 'M';
+	}
+	private char [] letrasNombre;
+	
+	//Como vamos a necesitar la variable letrasNombre, necesitamos un getter
+	char[] getletrasNombre() {
+		return letrasNombre;
+	}
+	
+	
+	//Aqui la funcion que va a imprimir desde el main
+	void ejecutar() {
+		String letrasAcumuladas="";
+		for (char letra: letrasNombre) { //Recorremos el Array
+			letrasAcumuladas +=String.valueOf(letra); //guardamos en un unico String los chars del nombre para imprimirlo por pantalla
+		}
+		System.out.print(letrasAcumuladas);
+	}
+		
+
+
+
+}

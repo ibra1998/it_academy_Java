@@ -1,0 +1,14 @@
+package prueba2;
+import java.util.ArrayList;
+
+public class Fase4 {
+	ArrayList <String> letras = new ArrayList <String>();
+	letras.add("B");
+	letras.add("R");
+	letras.add("A");
+	letras.add("H");
+	letras.add("I");
+	letras.add("3");
+	
+
+}

@@ -1,0 +1,12 @@
+package prueba2;
+
+public class Ejecutar_funciones {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		fase1 Ejecutador = new fase1();
+		Ejecutador.ejecutar();
+
+	}
+
+}
